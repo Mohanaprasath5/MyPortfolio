@@ -15,13 +15,12 @@
 
 // console.log(sum(arr));
 
-
-let button=document.getElementById('button');
-button.addEventListener("click",greet);
-function greet(){
-    let name=document.getElementById('input').value;
-    console.log(name);
-    // let output=`hii ${name}`;
-    let result=document.getElementById('result');
-    result.innerHTML = `hii ${name}`;
+let button = document.getElementById("button");
+button.addEventListener("click", greet);
+function greet() {
+  let name = document.getElementById("input").value;
+  console.log(name);
+  // let output=`hii ${name}`;
+  let result = document.getElementById("result");
+  result.innerHTML = `hii ${name}`;
 }

@@ -167,6 +167,10 @@ section {
   margin-top: 8rem;
   margin-bottom: -8rem;
 }
+.html-icon {
+  color: #c95d2e;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -185,8 +189,9 @@ section {
 
 .skills-container .headding {
   text-align: center;
-  text-decoration: underline;
-  text-underline-offset: 10px;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 10px;
   margin-bottom: 50px;
 }
 
@@ -195,6 +200,21 @@ section {
   margin: 6rem -9rem;
   font-size: 2rem;
   font-weight: 700;
+}
+.css-icon {
+  color: #147bbc;
+}
+
+.javascript-icon {
+  color: #b9bc1e;
+}
+
+.python-icon {
+  color: #c32ec9;
+}
+
+.sql-icon {
+  color: #e5e90f;
 }
 
 .skills-name i {
